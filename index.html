@@ -1,1 +1,132 @@
-<h1>This is my Homepage</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My-Link-in-Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
+    <style>
+/*Add a border by * { } to select ALL elements within the file if you need additional configuration in the future-->*/
+
+      html {
+        min-height: 100%;
+      }
+
+      body {
+        min-height: 100%;
+        margin: 0;
+        padding: 40px 0px;
+        background: linear-gradient(180deg, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);;
+        font-family:'Iceberg';
+      }
+      
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .lechuga {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        border-radius: 48px;
+      }
+
+      .link {
+        margin-bottom: 20px;
+        background-color: rgba(85, 86, 186, 0.53);
+        display: flex;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 48px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+      }
+      
+      .main-content {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name {
+        margin-bottom: 30px;
+        color: burlywood;
+        text-align: center;
+        font-family:'Iceberg';
+        font-size: 25px;
+      }
+
+      .social {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .centerlink {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      a {
+        color:burlywood;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+    <body>
+      <div class="main-content">
+        <header div class="image">
+          <img class="avatar-image"src="Images24/BR.jpg" alt="benii visuals">
+        </header>
+
+        <h1 div class="name">Beny Rodriguez</h1>
+
+        <h2 div class="socials"></h2>
+          <div class="social">
+            <a href="https://www.facebook.com/benii.barritas?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i>
+            
+            <a href="https://youtube.com/@beniibarritas?si=8M23CP3Alp0qYAm2" target="_blank"><i class="fa-brands fa-youtube"></i>
+            
+            <a href="https://www.snapchat.com/add/beniigio?share_id=z-X57MQodwQ&locale=en-US" target="_blank"><i class="fa-brands fa-snapchat"></i>
+            
+            <a href="https://www.discord.com/beniibarritas9135" target="_blank"><i class="fa-brands fa-discord"></i>
+          </div><!--This div closses SOCIAL-->
+
+        <div class="links">
+          <div class="link">
+            <img class="lechuga" src="Images24/PF logo.webp">
+            <a class="centerlink" href="https://www.youtube.com/@FearProject" target="_blank">Project Fear</a>
+          </div>
+
+          <div class="link">
+            <img class="lechuga" src="Images24/LiveScience.png">
+            <a class="centerlink" href="https://www.livescience.com/" target="_blank">Live Science</a>
+          </div>
+
+          <div class="link">
+            <img class="lechuga" src="Images24/Soompi Logo.jpg">
+            <a class="centerlink" href="https://www.soompi.com/" target="_blank">Soompi</a>
+          </div>
+
+          <div class="link">
+            <img class="lechuga" src="Images24/3DPN Logo.png">
+            <a class="centerlink" href="https://www.youtube.com/@3DPrintingNerd" target="_blank">3D Tech Nerd</a>
+          </div><!--Always makes sure to close divs hat are holding individuals linked pages-->
+        
+        </div><!--This div closses LINKS-->
+      </div><!--This div closses MAIN CONTENT-->
+    </body>
+</html>

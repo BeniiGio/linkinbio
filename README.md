@@ -1,3 +1,11 @@
-# static-html-template
+<html>
+  
+<body>
+<H1>First Mini Project</H1>
 
-Use this template to create static HTML websites and deploy them on Render.
+<p>Hello!,
+This repository holds my course works resulting endevour in creating a one-go-to page for some of my SNS and personal           favorite sites to follow.</p>
+
+</body>
+
+</html>
